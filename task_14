@@ -1,0 +1,16 @@
+#include <iostream>
+#include <math.h>
+using namespace std;
+int main() {
+	const float Pi = 3.14;
+	double L, R, S;
+	cout << "Write the L of a circle:";
+	cin >> L;
+	R = L/(2*Pi);
+	S = Pi * R * R;
+	cout << "The radius of a circle is equal " << R << "     ";
+	cout << "The area of a circle is equal " << S;
+	return 0;
+
+
+}
